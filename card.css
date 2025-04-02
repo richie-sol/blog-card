@@ -66,3 +66,6 @@ h2:hover{
     color: var(--yellow);
     cursor: pointer;
 }
+h2:active{
+    color: var(--yellow);
+}
