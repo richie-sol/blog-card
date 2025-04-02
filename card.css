@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Figtree";
+    src: url("assets/fonts/static/Figtree-ExtraBold.ttf");
+    src: url("assets/fonts/static/Figtree-Medium.ttf");
+    src: url("assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+:root{
+    --yellow:hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray500:hsl(0, 0%, 42%);
+    --gray950:hsl(0, 0%, 7%);
+}
+body{
+    font-family: "Figtree",system-ui;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 522px;
+    box-shadow: 10px 10px 0px black;
+    margin-bottom:20px;
+}
+.illustration{
+    margin: 24px 24px 24px 24px;
+    border-radius: 10px;
+   
+}
+.description, .name{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+#profile-img{
+    width:32px;
+    height: 32px;
+    display: inline;
+    
+}
+.name{
+    display: flex;
+    
+}
+.grey{
+    color:var(--gray500)
+}
+h2{
+    font-weight:800;
+}
+button{
+    background-color: var(--yellow);
+    color: var(--gray950);
+    border-radius: 4px;
+    padding: 4px 12px;
+    font-weight: 800;
+    border:1px solid;
+}
