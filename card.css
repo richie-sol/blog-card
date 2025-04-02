@@ -62,3 +62,7 @@ button{
     font-weight: 800;
     border:1px solid;
 }
+h2:hover{
+    color: var(--yellow);
+    cursor: pointer;
+}
